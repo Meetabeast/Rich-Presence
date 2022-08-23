@@ -1,0 +1,19 @@
+{
+  "name": "rich-presence",
+  "version": "1.0.0",
+  "description": "Custom Rich Presence for Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Rich_Presence",
+    "Discord"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "fs": "^0.0.1-security"
+  }
+}

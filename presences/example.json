@@ -1,0 +1,7 @@
+{
+    "clientId": "<your client id>",
+    "presence": {
+        "largeImageKey": "icon_4",
+        "details": "Discord Presences"
+    }
+}
