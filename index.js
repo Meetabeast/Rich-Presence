@@ -26,12 +26,12 @@ if(presence) {
 }
 
 let client = new Client({transport: 'ipc' });
+let startTimestamp = new Date();
+
 async function setActivity() {
     if(!client || !presenceData) {
         return;
     }
-
-    let startTimestamp = new Date();
 
     client.setActivity({
         state: presenceData.presence.state,
