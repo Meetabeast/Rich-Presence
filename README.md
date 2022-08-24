@@ -18,5 +18,5 @@ Custom Discord Rich Presence
 # Start the Presence
 
 ```
-node index.js mycool-presence.json
+node index.js mycool-presence
 ```
